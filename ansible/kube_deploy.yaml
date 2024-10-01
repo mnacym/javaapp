@@ -1,0 +1,14 @@
+---
+- hosts: kubernetes
+  user: ansadmin
+
+  tasks:
+  - name: deploy regapp on kubernetes
+    command: kubectl apply -f regapp-deployment.yml
+    args:
+      chdir: /home/ansadmin/
+
+  - name: deploy regapp on kubernetes
+    command: kubectl apply -f regapp-service.yml
+    args:
+      chdir: /home/ansadmin/
