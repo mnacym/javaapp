@@ -1,7 +1,7 @@
 <form action="action_page.php">
   <div class="container">
     <h1>New user Register for Edureka Project</h1>
-    <p>Please fills in this form to create an account.</p>
+    <p>Please fill out this form to create an account.</p>
     <hr>
      
     <label for="Name"><b>Enter Name</b></label>
